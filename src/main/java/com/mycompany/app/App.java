@@ -11,5 +11,29 @@ public static void main(String[] a){
             System.out.println("Inside 1st finally block");
         }
         
-    }
+    
+     try{
+            int i = 10/10;
+        } catch(Exception ex){
+            System.out.println("Inside 2nd catch Block");
+        } finally {
+            System.out.println("Inside 2nd finally block");
+        }
+      try{
+            int i = 10/10;
+        } catch(Exception ex){
+            System.out.println("Inside 3nd catch Block");
+        } finally {
+            System.out.println("Inside 3nd finally block");
+        }
+
+     try{
+            int i = 10/10;
+        } catch(Exception ex){
+            System.out.println("Inside 4nd catch Block");
+        } finally {
+            System.out.println("Inside 4nd finally block");
+        } 
+}
+
 }
